@@ -16,6 +16,7 @@ pub fn collatz_length(mut n: i32) -> u32 {
     i
 }
 
+#[cfg(test)]
 mod tests {
     #[test]
     fn test_collatz_length() {
