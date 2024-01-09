@@ -1,6 +1,7 @@
-pub mod containers;
-pub mod control_flow;
-pub mod types;
+mod containers;
+mod control_flow;
+mod references;
+mod types;
 
 fn main() {
     control_flow::label_loop();
