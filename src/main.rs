@@ -1,5 +1,6 @@
 mod containers;
 mod control_flow;
+mod patterns;
 mod references;
 mod types;
 
