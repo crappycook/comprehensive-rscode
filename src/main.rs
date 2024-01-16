@@ -2,6 +2,7 @@ mod containers;
 mod control_flow;
 mod patterns;
 mod references;
+mod structs;
 mod types;
 
 fn main() {
