@@ -1,5 +1,6 @@
 mod containers;
 mod control_flow;
+mod methods_traits;
 mod patterns;
 mod references;
 mod structs;
