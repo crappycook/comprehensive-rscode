@@ -15,7 +15,7 @@ impl PartialOrd for Player {
     fn partial_cmp(&self, other: &Self) -> Option<std::cmp::Ordering> {
         match self.age.partial_cmp(&other.age) {
             Some(std::cmp::Ordering::Equal) => self.name.partial_cmp(&other.name),
-            an => an, // TODO
+            result => result, // it returns the result of the age comparison.
         }
     }
 }
@@ -55,6 +55,7 @@ mod tests {
         };
         assert!(p1 == p2); // This should pass
         assert!(p1 < p3);
+        assert!(p2 < p3);
 
         let key1 = Key {
             id: 0,
