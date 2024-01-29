@@ -1,3 +1,4 @@
+mod closures;
 mod compare;
 mod conv;
 mod counter;
