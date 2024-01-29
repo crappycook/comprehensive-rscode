@@ -5,3 +5,4 @@ mod counter;
 mod default;
 mod misc;
 mod operators;
+mod rot13;
