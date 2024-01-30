@@ -1,6 +1,7 @@
 mod containers;
 mod control_flow;
 mod generics;
+mod memory;
 mod methods_traits;
 mod patterns;
 mod references;
