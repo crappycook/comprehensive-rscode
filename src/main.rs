@@ -5,6 +5,7 @@ mod memory;
 mod methods_traits;
 mod patterns;
 mod references;
+mod smart_pointers;
 mod std_lib;
 mod structs;
 mod types;
