@@ -33,9 +33,7 @@ where
     fn insert(&mut self, value: T) {
         let r = &mut self.0;
         match r {
-            None => {
-                *r = Some(Box::new(Node::new(value)))
-            }
+            None => *r = Some(Box::new(Node::new(value))),
             Some(n) => {
                 if value < n.value {
                     n.left.insert(value);
