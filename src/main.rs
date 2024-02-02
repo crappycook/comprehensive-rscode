@@ -2,6 +2,7 @@ mod borrowing;
 mod containers;
 mod control_flow;
 mod generics;
+mod iterator;
 mod lifetimes;
 mod memory;
 mod methods_traits;
