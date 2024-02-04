@@ -1,6 +1,7 @@
 mod borrowing;
 mod containers;
 mod control_flow;
+mod errors;
 mod generics;
 mod iterator;
 mod lifetimes;
