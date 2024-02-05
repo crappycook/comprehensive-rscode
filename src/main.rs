@@ -13,6 +13,7 @@ mod smart_pointers;
 mod std_lib;
 mod structs;
 mod types;
+mod unsafe_op;
 
 fn main() {
     control_flow::label_loop();
