@@ -26,6 +26,9 @@ fn test_raw_pointers() {
 extern "C" {
     // Absolute value of -3 according to C
     fn abs(input: i32) -> i32;
+
+    /// Shell: `man floor` to see the detail
+    fn floor(input: f64) -> f64;
 }
 
 #[test]
@@ -34,6 +37,9 @@ fn test_unsafe_extern() {
         // Undefined behavior if abs misbehaves.
         let res = abs(-3);
         assert_eq!(res, 3);
+
+        let r = floor(2.9);
+        assert_eq!(r, 2.0);
     }
 }
 
