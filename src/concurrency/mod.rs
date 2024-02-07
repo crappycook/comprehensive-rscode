@@ -1,4 +1,5 @@
 mod channel;
+mod philosophers;
 mod shared;
 
 #[test]

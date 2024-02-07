@@ -44,5 +44,6 @@ mod tests {
         for msg in rx.iter() {
             println!("Main: got {msg}");
         }
+        assert!(rx.recv().is_err());
     }
 }
