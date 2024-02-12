@@ -1,3 +1,4 @@
+mod async_basic;
 mod channel;
 mod philosophers;
 mod shared;
