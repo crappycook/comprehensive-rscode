@@ -1,5 +1,6 @@
 mod async_basic;
 mod channel;
+mod join_select;
 mod philosophers;
 mod shared;
 
