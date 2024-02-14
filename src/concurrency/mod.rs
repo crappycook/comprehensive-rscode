@@ -1,9 +1,10 @@
 mod async_basic;
 mod channel;
 mod join_select;
-mod philosophers;
-mod shared;
 mod nonblock;
+mod philosophers;
+mod pin;
+mod shared;
 
 #[test]
 fn test_threads() {
