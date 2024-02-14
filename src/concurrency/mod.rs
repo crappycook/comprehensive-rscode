@@ -3,6 +3,7 @@ mod channel;
 mod join_select;
 mod philosophers;
 mod shared;
+mod nonblock;
 
 #[test]
 fn test_threads() {
