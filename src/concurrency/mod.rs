@@ -1,4 +1,5 @@
 mod async_basic;
+mod cancellation;
 mod channel;
 mod join_select;
 mod nonblock;
